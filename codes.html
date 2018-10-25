@@ -1,9 +1,6 @@
 <!-- Depending on Installation -->
-export GOROOT=$HOME/go/src
+export GOROOT=$HOME/go
 export GOPATH=$HOME/go
-export GOBIN=$GOPATH/bin
 export PATH=$GOPATH/bin:$PATH
 export PATH=$PATH:$GOROOT/bin
 
-<!-- Connect postgres to database -->
-psql -h localhost -p 5432 -U postgres
