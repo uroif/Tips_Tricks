@@ -16,6 +16,6 @@ Remove GOROOT
 export GOROOT=`
 ```
 
-# No operations defined in spec!
->> Add comment above functions in controllers folder
->> Run swag init command
+# For error "No operations defined in spec!"
+> Add comment above functions in controllers folder
+> Run swag init command
