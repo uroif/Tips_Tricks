@@ -1,5 +1,5 @@
 ## Tips
-
+___
 # Set $GOPATH and $GOROOT
 Set GOPATH
 ```javascript
@@ -15,7 +15,9 @@ Remove GOROOT
 ```javascript
 export GOROOT=`
 ```
-
+___
 # For error "No operations defined in spec!"
+```
 > Add comment above functions in controllers folder
 > Run swag init command
+```
