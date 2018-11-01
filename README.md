@@ -18,6 +18,6 @@ export GOROOT=`
 ___
 # For error "No operations defined in spec!"
 ```
-> Add comment above functions in controllers folder
-> Run swag init command
+1. Add comment above functions in controllers folder
+2. Run swag init command
 ```
