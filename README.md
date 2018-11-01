@@ -13,6 +13,6 @@ export PATH=$PATH:$GOROOT/bin
 ```
 
 Remove GOROOT
-```go
+```
 export GOROOT=`
 ```
