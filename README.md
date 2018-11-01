@@ -7,10 +7,12 @@ export PATH=$PATH:$GOPATH/bin
 ```
 
 Set GOROOT
-```markdown
+```html
 export GOROOT=$HOME/go/src
 export PATH=$PATH:$GOROOT/bin
 ```
 
 Remove GOROOT
-> export GOROOT=`
+```go
+export GOROOT=`
+```
