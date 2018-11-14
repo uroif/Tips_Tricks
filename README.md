@@ -16,8 +16,20 @@ Remove GOROOT
 export GOROOT=`
 ```
 ___
-# For error "No operations defined in spec!"
+# Git Force Pull
+```javascript
+git fetch --all
+git reset --hard origin/development
+git pull origin development
 ```
-1. Add comment above functions in controllers folder
-2. Run swag init command
+___
+# SQL Query Log (should put right after function)
+```javascript
+db.OnQueryProcessed(func(event *pg.QueryProcessedEvent) {
+	query, err := event.FormattedQuery()
+	if err != nil {
+		panic(err)
+	}
+	log.Printf("%s %s", time.Since(event.StartTime), query)
+})
 ```
