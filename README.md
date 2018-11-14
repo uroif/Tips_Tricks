@@ -23,7 +23,7 @@ git reset --hard origin/development
 git pull origin development
 ```
 ___
-# SQL Query Log (should put right after function)
+# SQL Query Log
 ```javascript
 db.OnQueryProcessed(func(event *pg.QueryProcessedEvent) {
 	query, err := event.FormattedQuery()
@@ -32,4 +32,9 @@ db.OnQueryProcessed(func(event *pg.QueryProcessedEvent) {
 	}
 	log.Printf("%s %s", time.Since(event.StartTime), query)
 })
+```
+___
+# Regex to find a string:
+```javascript
+.*?
 ```
