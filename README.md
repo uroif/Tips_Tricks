@@ -18,7 +18,7 @@ export GOROOT=`
 ___
 Fix "swag: command not found" even downloaded from github.com/swaggo/swag/cmd/swag
 ```javascript
-export GOPATH=$PATH:$(go env GOPATH)/binROOT=`
+PATH=$PATH:$(go env GOPATH)/bin
 ```
 ___
 # Git Force Pull
