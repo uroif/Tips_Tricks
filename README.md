@@ -16,6 +16,11 @@ Remove GOROOT
 export GOROOT=`
 ```
 ___
+# Fix swag not found even downloaded from github.com/swaggo/swag/cmd/swag
+```javascript
+export GOPATH=$PATH:$(go env GOPATH)/binROOT=`
+```
+___
 # Git Force Pull
 ```javascript
 git fetch --all
