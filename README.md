@@ -27,19 +27,3 @@ git fetch --all
 git reset --hard origin/development
 git pull origin development
 ```
-___
-# SQL Query Log
-```javascript
-db.OnQueryProcessed(func(event *pg.QueryProcessedEvent) {
-	query, err := event.FormattedQuery()
-	if err != nil {
-		panic(err)
-	}
-	log.Printf("%s %s", time.Since(event.StartTime), query)
-})
-```
-___
-# Regex to find a string:
-```javascript
-.*?
-```
